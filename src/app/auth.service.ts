@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private boltUrl = 'https://bolt-tournament-s.herokuapp.com/'; // URL to web api
+  private boltUrl = 'https://bolt-tournament.herokuapp.com/'; // URL to web api
 
   headerDict = {
     'Content-Type': 'application/json',

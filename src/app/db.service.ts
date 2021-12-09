@@ -13,7 +13,7 @@ import { User } from './model/user';
 
 @Injectable({ providedIn: 'root' })
 export class DbService {
-  private boltUrl = 'https://bolt-tournament-s.herokuapp.com/';  // URL to web api
+  private boltUrl = 'https://bolt-tournament.herokuapp.com/';  // URL to web api
 
   headerDict = {
     'Content-Type': 'application/json',
