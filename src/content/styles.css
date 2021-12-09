@@ -1,0 +1,75 @@
+/**
+ * File name: src/content/styles.css   
+ * Student’s Name: Anamaria Pereira Barbosa
+ * StudentID: 301177133
+ * Date: 01/12/2021 
+ */
+.aqua-button{
+    background-color: #0b8a79;
+}
+.aqua-button:hover{
+    background-color: #006668;
+}
+.aqua-dark-button{
+    background-color: #006668;
+}
+.aqua-dark-button:hover{
+    background-color: #004849;
+}
+body {  
+    background-color: #6C6F74;
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+.bolt-bg1 {
+    background-image:   url("/assets/images/hand_bg.svg"),url("/assets/images/coliseum-5.svg"),
+                        url("/assets/images/shade12.svg");
+    background-position:    left top, right bottom,
+                            right bottom;
+    background-repeat:  no-repeat, no-repeat,
+                        no-repeat; 
+    background-size:    300px,400px,
+                        300px;
+}
+.bolt-bg2 {
+    background-image:   url("/assets/images/shade10.svg");
+    background-position:    center top;
+    background-repeat:  no-repeat; 
+    background-size:    cover;
+}
+.bolt-bg3 {
+    background-image:   url("/assets/images/coliseum-5.svg"),url("/assets/images/shade8.svg"),
+                        url("/assets/images/hand_bg-5.svg");
+    background-position:    right bottom, left bottom,
+                            left top;
+    background-repeat:  no-repeat,no-repeat,
+                        no-repeat; 
+    background-size:    300px,140px,
+                        300px;
+}
+.bolt-start{
+    background-image:   url("/assets/images/crown1.svg");
+    background-position:    center bottom;
+    background-repeat:  no-repeat; 
+    background-size:    contain;    
+    padding: 1.5rem;
+}
+.bolt-container{
+    margin-top: 100px;
+    padding: 10px 30px 70px 30px
+}
+.card{
+    padding: 0;
+}
+.card-footer{
+    padding: 0;
+}
+.white-div {
+    background: #fff;
+    border-width: 1px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 1.5rem;
+}
+  

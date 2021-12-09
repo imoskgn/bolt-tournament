@@ -1,22 +1,68 @@
 {
-  "name": "tournament",
+  "name": "json",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
-    "start": "node ./server"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
+  "engines": {
+    "node": "14.x",
+    "npm": "^6.0.0"
+  },
+  "private": true,
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "cookie-parser": "~1.4.4",
-    "cors": "^2.8.5",
-    "debug": "~2.6.9",
-    "dotenv": "^10.0.0",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
+    "@angular/animations": "~13.0.1",
+    "@angular/cdk": "^13.0.1",
+    "@angular/common": "~13.0.1",
+    "@angular/compiler": "~13.0.1",
+    "@angular/core": "~13.0.1",
+    "@angular/forms": "~13.0.1",
+    "@angular/material": "^13.0.1",
+    "@angular/platform-browser": "~13.0.1",
+    "@angular/platform-browser-dynamic": "~13.0.1",
+    "@angular/router": "~13.0.1",
+    "@auth0/angular-jwt": "^5.0.2",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "json": "^11.0.0",
+    "moment": "^2.29.1",
+    "popper.js": "^1.16.1",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^13.0.2",
+    "@angular/cli": "~13.0.2",
+    "@angular/compiler-cli": "~13.0.1",
+    "@types/bootstrap": "^5.1.6",
+    "@types/jasmine": "~3.8.0",
+    "@types/jquery": "^3.5.8",
+    "@types/node": "^12.20.37",
+    "jasmine-core": "~3.8.0",
+    "json-server": "^0.17.0",
     "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.21",
-    "mongoose": "^6.0.12",
-    "morgan": "~1.9.1"
-  }
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "typescript": "~4.4.4"
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imoskgn/bolt-tournament-c.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imoskgn/bolt-tournament-c/issues"
+  },
+  "homepage": "https://github.com/imoskgn/bolt-tournament-c#readme"
 }
