@@ -5,9 +5,10 @@
   "scripts": {
     "ng": "ng",
     "start": "node ./server",
-    "build": "ng build --prod",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "heroku-postbuild": "ng build --prod"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -41,7 +42,8 @@
     "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "typescript": "~4.4.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "13.0.0",
@@ -51,6 +53,7 @@
     "@types/jasmine": "~3.8.0",
     "@types/jquery": "^3.5.8",
     "@types/node": "^12.20.37",
+    "enhanced-resolve": "^3.3.0",
     "jasmine-core": "~3.8.0",
     "json-server": "^0.17.0",
     "jsonwebtoken": "^8.5.1",
