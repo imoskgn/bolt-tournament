@@ -44,6 +44,9 @@ app.use('/tournament', tournamentRouter);
 app.use('/match', matchRouter)
 app.use('/user', userRouter)
 app.use('/forum', forumRouter)
+app.get('*',(req,res)=>{
+  res.sendFile(path.join(__dirname, '../--/src/index.html'))
+});
 
 
 
