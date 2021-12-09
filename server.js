@@ -4,7 +4,7 @@
 
 require('dotenv').config()
 var app = require('./server/config/app');
-var debug = require('debug')('portfolio:server');
+var debug = require('debug')('bolt:server');
 var http = require('http');
 
 /**
