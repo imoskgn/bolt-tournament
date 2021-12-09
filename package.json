@@ -1,19 +1,27 @@
 {
-  "name": "json",
+  "name": "tournament",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node ./server",
     "build": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "engines": {
-    "node": "14.x",
-    "npm": "^6.0.0"
-  },
-  "private": true,
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.12",
+    "morgan": "~1.9.1",
     "@angular/animations": "~13.0.1",
     "@angular/cdk": "^13.0.1",
     "@angular/common": "~13.0.1",
@@ -52,6 +60,10 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.4.4"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "^6.0.0"
   },
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.",
   "main": "karma.conf.js",
